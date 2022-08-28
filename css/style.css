@@ -39,6 +39,7 @@ body {
   cursor: pointer;
   outline: none;
   border: none;
+  margin-bottom: 1rem;
 }
 
 .restart-btn:hover {
@@ -84,6 +85,14 @@ body {
 
 .choice:hover {
   color: var(--primary-color);
+}
+
+.text-win {
+  color: var(--win-color);
+}
+
+.text-lose {
+  color: var(--lose-color);
 }
 
 @media(max-width: 700px) {
